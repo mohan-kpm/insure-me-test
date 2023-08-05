@@ -22,8 +22,8 @@ public class App
 
     public static void main( String[] args ) throws InterruptedException, IOException
     {
+      
       //System.setProperty("webdriver.chrome.driver","C:\\Users\\mohan\\devops\\chromedriver.exe");
-    
         System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
                 
         ChromeOptions chromeOptions = new ChromeOptions();
